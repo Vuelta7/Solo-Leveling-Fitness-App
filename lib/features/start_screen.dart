@@ -1,4 +1,4 @@
-import 'package:anime_fitness_app/test.dart';
+import 'package:anime_fitness_app/widgets/system_line.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatelessWidget {
@@ -19,7 +19,11 @@ class StartScreen extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.black, Colors.blue[900]!, Colors.black],
+              colors: [
+                Colors.black,
+                Color.fromRGBO(25, 25, 112, 1),
+                Colors.black,
+              ],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
@@ -32,6 +36,13 @@ class StartScreen extends StatelessWidget {
                 fontFamily: 'awaken',
                 fontSize: 120,
                 color: Colors.black,
+                shadows: [
+                  Shadow(
+                    offset: const Offset(2, 2),
+                    color: Colors.white,
+                    blurRadius: 0,
+                  ),
+                ],
               ),
             ),
           ),

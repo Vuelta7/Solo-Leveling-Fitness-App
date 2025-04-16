@@ -22,7 +22,7 @@ class _OpeningLinesAnimationState extends State<OpeningLinesAnimation> {
             top: _isOpened ? 300 : MediaQuery.of(context).size.height / 2 - 5,
             left: 50,
             right: 50,
-            child: Container(height: 5, color: Colors.white),
+            child: Image.asset('assets/images/top_line.png'),
           ),
           // Bottom Line
           AnimatedPositioned(
@@ -31,7 +31,7 @@ class _OpeningLinesAnimationState extends State<OpeningLinesAnimation> {
                 _isOpened ? 300 : MediaQuery.of(context).size.height / 2 - 5,
             left: 50,
             right: 50,
-            child: Container(height: 5, color: Colors.white),
+            child: Image.asset('assets/images/bottom_line.png'),
           ),
           // Button to trigger animation
           Center(
