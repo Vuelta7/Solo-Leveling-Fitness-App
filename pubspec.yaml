@@ -37,4 +37,12 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/logo.png
+    - assets/
+
+  fonts:
+    - family: steel
+      fonts:
+        - asset: assets/steel.ttf
+    - family: awaken
+      fonts:
+        - asset: assets/awaken.ttf

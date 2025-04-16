@@ -1,4 +1,4 @@
-import 'package:anime_fitness_app/test.dart';
+import 'package:anime_fitness_app/features/start_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -11,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: OpeningLinesAnimation());
+    return MaterialApp(home: StartScreen());
   }
 }
